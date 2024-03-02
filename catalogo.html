@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Practica 7</title>
+    <style>
+        .areaPrincipal {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .areaPrincipal li {
+            text-align: center;
+            list-style: none;
+        }
+        .areaPrincipal img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="encabezado">
+        <div id="menu">
+            <ul>
+                <li><a href="index.html" title="Página principal">Inicio</a></li>
+                <li><a href="nosotros.html" title="descripción del negocio">Nosotros</a></li>
+                <li><a href="catalogo.html" title="Catálogo">Nuestros productos</a></li>
+                <li><a href="galería.html" title="Fotos">Galeria</a></li>
+                <li><a href="contacto.html" title="Nuestros datos">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="areaPrincipal">
+        <div id="datos">
+            <h2>Lista de productos</h2>
+            <ul>
+                <li>
+                    <img src="https://images.hola.com/imagenes/cocina/recetas/20230904238241/pizza-cuatro-quesos/1-299-522/pizzacuatroquesos-adob-t.jpg" alt="Pizza de Queso">
+                    <h3>Pizza de Queso</h3>
+                    <p>Precio: $79</p>
+                    <p>Ingredientes: Salsa de tomate, mozzarella</p>
+                </li>
+                <li>
+                    <img src="https://hacermasapizza.com/img/pizza-pepperoni-916.jpg" alt="Pizza de Pepperoni">
+                    <h3>Pizza de Pepperoni</h3>
+                    <p>Precio: $89</p>
+                    <p>Ingredientes: Salsa de tomate, mozzarella, pepperoni</p>
+                </li>
+                <li>
+                    <img src="https://www.institucionalcolombia.com/wp-content/uploads/2023/01/Pizza_vegetariana.jpg" alt="Pizza Vegetariana">
+                    <h3>Pizza Vegetariana</h3>
+                    <p>Precio: $84</p>
+                    <p>Ingredientes: Salsa de tomate, mozzarella, champiñones, pimientos, cebolla</p>
+                </li>
+                <li>
+                    <img src="https://mandolina.co/wp-content/uploads/2023/06/pizza-hawaian-2.jpg" alt="Pizza Hawaiana">
+                    <h3>Pizza Hawaiana</h3>
+                    <p>Precio: $114</p>
+                    <p>Ingredientes: Salsa de tomate, mozzarella, champiñones, pimientos, cebolla</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="piePagina"></div>
+</body>
+</html>
+

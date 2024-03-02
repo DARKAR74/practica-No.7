@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7a7a7a;
+}
+.areaPrincipal { 
+    background-image: url("../img/fondo.jpeg"); 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: auto;
+    opacity: 2.5; 
+    -webkit-background-size: 100% 100%; 
+    -moz-background-size: 100% 100%; 
+    -o-background-size: 100% 100%; 
+    background-size: 100% 100%; 
+}
+
+#encabezado
+{background: #d0e6f8;
+height: 240px;
+text-align: center;
+background-image: url("../img/LOGO.jpeg");
+background-repeat: no-repeat;
+background-size: 180px 180px;
+}
+
+.piePagina
+{
+    width: 50%; 
+    height:50px; 
+    background:#15101b; 
+    color: white; 
+    bottom: auto; 
+    position: fixed;
+    left: 0; 
+    margin-top: -100px;
+}
+
+p
+{
+color: rgb(255, 230, 0);
+}
+
+#menu{ 
+    height: 40px;
+    position: relative;
+    top: 200px;
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
+    li
+    {
+        float: left;
+    }
+        li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        }
+        li a:hover{
+        background-color: #111111;
+        }
+
+        #datos {
+            width: 80%;
+            background-color:#4b8181;
+            height: 600px;
+            margin: auto;
+            opacity: 1;
+            color: #9bdfbd;
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
